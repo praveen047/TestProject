@@ -1,0 +1,20 @@
+            - name: SCP Upload
+  # You may pin to the exact commit or the version.
+  # uses: betanzos/scp-upload@6681a6d4596e23b96314c6c4ae2c154d4c4d346c
+  uses: betanzos/scp-upload@v1
+  with:
+    # Source local file path
+    source: 
+    # Remote host
+    host: 
+    # Remote host SSH port
+    port: # optional, default is 22
+    # Remote host username
+    username: 
+    # SSH private key
+    key: 
+    # Remote directory to copy the file
+    remote_dir: # optional, default is ~
+    # Recursively copy entire source directories. Valid values: true and false (specified as strings)
+    recursive: # optional, default is false
+          
